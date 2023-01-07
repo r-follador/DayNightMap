@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorSunseekbarFont">#ffffff</color>
+    <color name="help_background">#000000</color>
+    <color name="daynight_background">#000000</color>
+</resources>

@@ -1,0 +1,93 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/daynightActivityLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/daynight_background">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/daynightimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/sunnavigationview"
+        app:srcCompat="@drawable/map_of_the_world" />
+
+    <TextView
+        android:id="@+id/timeView"
+        style="@style/InfoBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/civildawnimage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/civildawntext"
+        app:srcCompat="@drawable/civildawn" />
+
+    <TextView
+        android:id="@+id/civildawntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:padding="3dip"
+        android:text="@string/MainCivilDawn"
+        app:layout_constraintStart_toStartOf="@id/astronomicaldawntext" />
+
+    <ImageView
+        android:id="@+id/nauticaldawnimage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/nauticaldawntext"
+        app:layout_constraintTop_toBottomOf="@id/civildawntext"
+        app:srcCompat="@drawable/nauticaldawn" />
+
+    <TextView
+        android:id="@+id/nauticaldawntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:padding="3dip"
+        android:text="@string/MainNauticalDawn"
+        app:layout_constraintTop_toBottomOf="@id/civildawntext"
+        app:layout_constraintStart_toStartOf="@id/astronomicaldawntext" />
+
+    <ImageView
+        android:id="@+id/astronomicaldawnimage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/astronomicaldawntext"
+        app:layout_constraintTop_toBottomOf="@id/nauticaldawntext"
+        app:srcCompat="@drawable/astrodawn" />
+
+    <TextView
+        android:id="@+id/astronomicaldawntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="3dip"
+        android:text="@string/MainAstronomicalDawn"
+        app:layout_constraintTop_toBottomOf="@id/nauticaldawntext"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.genewarrior.daynightmap.SunNavigationView
+        android:id="@+id/sunnavigationview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </com.genewarrior.daynightmap.SunNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>

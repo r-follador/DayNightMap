@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000099CC"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/daynightimageWidget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@drawable/map_of_the_world" />
+
+</RelativeLayout>

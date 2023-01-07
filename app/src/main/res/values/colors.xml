@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f92b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff7840</color>
+    <color name="black">#000000</color>
+    <color name="colorTitleBar">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSplashBackground">#FFFFFF</color>
+    <color name="switchCompatText">@android:color/black</color>
+    <color name="switchCompatBackground">#c7f9f9f9</color>
+    <color name="mapButtonText">#616161</color>
+    <color name="mapButtonBackground">#FFFFFF</color>
+    <color name="colorBlack">@android:color/black</color>
+    <color name="colorViewBackground">@android:color/white</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorSunseekbarFont">#000000</color>
+    <color name="help_background">#EEE</color>
+    <color name="daynight_background">#eef2f4</color>
+</resources>
