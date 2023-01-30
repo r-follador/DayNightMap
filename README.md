@@ -8,7 +8,7 @@ The widget shows live data on your homescreen and is designed to be very battery
 
 This is an open source port of [*Day & Night Map and Widget* available on Google Play](https://play.google.com/store/apps/details?id=com.genewarrior.daynightmap).
 
-*Day & Night Map and Widget* is itself based on [SunLocator](http://sunlocator.com), an app
+*Day & Night Map and Widget* is integrated in [SunLocator](http://sunlocator.com), an app
 to predict the sun's position in multiple ways (Augmented Reality, Map, 3D Terrain simulation).
 [Available on Google Play](https://play.google.com/store/apps/details?id=com.genewarrior.sunlocator.pro).
 
